@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Style+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap");
+
+body {
+  background-color: rgb(252, 239, 185);
+}
+
+.title {
+  font-family: "Style Script", cursive;
+  text-shadow: 2px 2px red;
+  font-size: 400%;
+}
+
+h2.slant {
+  font-style: italic;
+}
+
+div.menu {
+  font-family: "Parisienne", cursive;
+  margin: 10px;
+  border: 5px solid;
+  border-radius: 0.5rem;
+  padding: 25px;
+  background-color: rgba(77, 33, 44, 0.3);
+  position: fixed;
+}
+
+div.menu:hover {
+  box-shadow: 10px 10px 10px 10px gray;
+}
+
+table,
+th,
+td {
+  border: 3px solid orange;
+}
+
+tr:hover {
+  background-color: black;
+  color: white;
+}
+
+.orange {
+  background-color: orange;
+}
+
+footer {
+  position: fixed;
+  bottom: 10px;
+}
+
+a {
+  box-shadow: 0 1px 1px lightGreen, inset 0 1px 0 honeyDew;
+  background-color: lawngreen;
+  color: darkgreen;
+  padding: 10px;
+  border: solid limegreen 1px;
+  text-shadow: 1px 1px white;
+  display: block;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.home-link {
+  width: 100px;
+}
+
+.cal-link {
+  width: 45px;
+}
